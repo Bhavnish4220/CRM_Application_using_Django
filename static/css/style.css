@@ -1,0 +1,17 @@
+.form-layout{
+    border-radius: 15px;
+    width: 500px;
+    color: white;
+    background-color: rgb(172, 172, 172);
+}
+.message-text{
+    color: white;
+}
+.login-button{
+    color: white;
+}
+
+.login-button:hover{
+    color: rgb(0, 115, 255)
+
+}

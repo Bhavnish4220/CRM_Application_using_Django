@@ -1,0 +1,18 @@
+{% extends 'webapp/base.html' %}
+
+{% block content %}
+
+    <body>
+        <br>
+        <br>
+        <div class="text-center">
+            <h3>Bhavnish CRM Application using Django</h3>
+            <br>
+            <h5>This demonstrates creation,updation,deletion e.t.c of records using Django</h5>
+            <hr>
+            <br>
+            <a class="btn btn-primary" type="button" href="{% url 'register' %}">Create your account &nbsp; <i class="fa-solid fa-user-plus"></i></a>
+        </div>
+    </body>
+
+{% endblock %}
